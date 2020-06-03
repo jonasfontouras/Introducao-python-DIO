@@ -44,3 +44,9 @@ if cond == 'sim':
     print('Lista reversa:')
     for y in lista:
         print(y)
+
+#sort - ordena
+#resverse - reverte
+#len - tamanho 
+# tuplalista = tuple(nomelista) ------- listatupla = list(nometupla)
+# tupla = tuple(1, 2, 3, 4)
