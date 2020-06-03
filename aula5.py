@@ -24,3 +24,23 @@ else:
 #Laço de repetição para apresentar os elementos da tela 
 for x in lista_animal:
     print(x)
+
+
+
+#---------------
+num = int(input("Digite um número: "))
+condicao = str(input("Deseja adicionar mais um numero?"))
+
+while condicao == 'sim':
+    num = int(input("Digite um número: "))
+    lista.append(num)
+    condicao = str(input("Deseja adicionar mais um numero?"))
+lista.sort()
+for z in lista:
+    print(z)
+cond = str(input('Sua lista está ordenada. Deseja reverter?'))
+if cond == 'sim':
+    lista.reverse()
+    print('Lista reversa:')
+    for y in lista:
+        print(y)
