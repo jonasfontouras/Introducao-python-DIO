@@ -16,5 +16,3 @@ while True:
         break
     except ValueError:
         print('Digite apenas números!')
-    except InputError as ex:
-        print(ex)
